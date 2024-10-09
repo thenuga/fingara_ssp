@@ -35,3 +35,5 @@ Route::post('catergories/create',[App\Http\Controllers\CategoryController::class
 Route::get('catergories/{id}/edit', [App\Http\Controllers\CategoryController::class,'edit']);
 Route::put('catergories/{id}/edit', [App\Http\Controllers\CategoryController::class,'update']);
 Route::get('catergories/{id}/delete', [App\Http\Controllers\CategoryController::class,'destroy']);
+
+

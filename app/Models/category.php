@@ -12,5 +12,7 @@ class category extends Model
     protected $fillable = [
         'name',
         'description' ,
-        'is_active'];
+        'is_active',
+        'image' ,
+        'time_slot'];
 }

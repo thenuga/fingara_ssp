@@ -55,6 +55,7 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
+"disable-tls": true
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
